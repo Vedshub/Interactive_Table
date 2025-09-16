@@ -1,0 +1,62 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="55.12369639721112" scrolly="123.061610694791" scale="0.5211015538027473">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="}i@lo:b#I*Z[[IR1f2!O" inline="false" x="50" y="10">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="E{sz/d]J}{mLu7,@]4pE">
+          <field name="FIELDNAME">sphere black</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=")YIKq;l0[xPpx}Y5lvo6">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Ci)%AuDh:/9ukxo?TykN">
+              <field name="FIELDNAME">paint black</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="TgI.HY5U:eEW/3S;+9+$">
+              <field name="FIELDNAME">legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="t=RoczyGNJy+wOt`v}F6" inline="false" x="70" y="170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="{gSvjuY6nlZaQWA2${|X">
+          <field name="FIELDNAME">mettalic sphere</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="X[H=s!VKt3jLFW/%E$p[">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="3)={H_L=OI)V^2yEOtHG">
+              <field name="FIELDNAME">chrome</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="eD:IRUK/fQEQr])0J:Xs">
+              <field name="FIELDNAME">legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="619.2" viewport-y="37" viewport-w="424.8" viewport-h="310.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
